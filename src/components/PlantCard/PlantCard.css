@@ -1,0 +1,66 @@
+.card {
+  /* border: 1px solid hsl(var(--neutral-green)); */
+  /* cursor: pointer; */
+
+  /* background-color: transparent; */
+  border: 1px solid transparent;
+
+ transition: transform .1s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-img-top {
+  aspect-ratio: 12 / 8;
+  object-fit: cover;
+}
+
+.card_link {
+  text-decoration: none;
+}
+
+.card-name {
+  color: hsl(var(--card-text-color));
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-family: monospace;
+}
+
+.star-rating {
+  display: flex;
+}
+.star-rating svg {
+  fill: gold;
+  width: 27px;
+  height: 50px;
+}
+
+.card-price {
+  margin-top: 1rem;
+  color: hsl(var(--card-text-color));
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: monospace;
+}
+
+.card-description {
+  margin-top: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  color: hsl(var(--card-text-color));
+}
+
+.continue-reading-btn {
+  margin-top: 1rem;
+  padding: 0.3em;
+  background-color: hsl(var(--neutral-green));
+  color: white;
+  font-weight: 600;
+}

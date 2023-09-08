@@ -1,0 +1,12 @@
+.page_not_found{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-size: 3rem;
+}
+
+.page_not_found p:first-child{
+   font-size: 3em;
+}

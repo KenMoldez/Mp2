@@ -1,0 +1,136 @@
+#logo1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  font-family: Arial, sans-serif;
+  flex-shrink: 0;
+  padding: 20px;
+}
+
+#logo1 img {
+  max-width: 100%;
+}
+
+.typewriter h1 {
+  color: black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  animation: typing 3.5s steps(32, end), blink-caret 0.5s step-end infinite;
+  font-size: 2rem;
+}
+
+/* MIDDLE CONTENT - The typing effect  */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* MIDDLE CONTENT - The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+
+.content {
+  margin-top: 100px;
+}
+
+#text-title {
+  text-align: start;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+}
+
+#text-content {
+  font-family: Montserrat, sans-serif;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.center-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.shop-button {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured_plant {
+  margin-top: 5rem;
+}
+
+.featured_plants-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding-bottom: 1em;
+  letter-spacing: 0.1rem;
+  font-family: Montserrat;
+}
+
+.partners {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: Montserrat;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.partner2 {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.partner3 {
+  margin-left: 80px;
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.partner1 {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}

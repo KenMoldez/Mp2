@@ -1,0 +1,106 @@
+.page-title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding-block-end: 1em;
+  font-family: Montserrat;
+  /* color: #06bf77; */
+
+  letter-spacing: 0.1rem;
+}
+
+.dropdown__category {
+  /* margin-top: 3rem; */
+  position: relative;
+  /* // outline: 1px solid red;
+    // width: 10rem; */
+  display: inline-block;
+}
+.filter__category {
+  padding: 1em 2em 1em 1em;
+  text-align: left;
+  /* background-color: hsl(var(--Primary-100)) ;
+  border-color: hsl(var(--Primary-100));
+  color: hsl(var(--Primary-300)); */
+  background-color: #5baa8c;
+
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  width: 20rem;
+}
+.category__list {
+  margin-top: 0.4rem;
+  padding-block: 1rem;
+  padding-left: 1rem;
+  /* color: hsl(var(--Primary-300));
+  background-color: hsl(var(--Primary-100));
+  border-color: hsl(var(--Primary-100));
+  color: hsl(var(--Primary-300)); */
+  background-color: #5baa8c;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  position: absolute;
+  width: 100%;
+  display: none;
+}
+
+.plants__container {
+  margin-top: 2rem;
+}
+
+.category__list.active {
+  display: block;
+}
+
+.filter__plant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* z-index: -1; */
+  /* position: relative; */
+  /* isolation: isolate; */
+}
+
+.filterByFamily {
+  position: relative;
+  /* isolation: isolate; */
+  z-index: 2;
+}
+
+.filterName {
+  padding: 0.8em;
+  border: 1px solid #06bf77;
+  width: 20rem;
+  /* color: #06bf77 */
+}
+
+.filter-text {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 0.01rem;
+  /* background-color: red; */
+}
+
+.category__list--item {
+  color: white;
+  /* font-weight: 600; */
+  letter-spacing: 0.01rem;
+}
+.category__list--item:hover{
+  /* background-color: hsl(var(--neutral-green), .5); */
+ 
+}
+
+.no-plant-found {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  height: 20rem;
+}
+
+.no-plant-found p {
+  font-size: 2rem;
+}
